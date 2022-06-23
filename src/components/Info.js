@@ -9,8 +9,12 @@ export function Info(){
             <p>Frontend Developer</p>
             <a href="www.google.com">kedarhargude.website</a>
             <div className="buttons--container">
-                <button className="email-btn" href="">Email</button>
-                <button className="linkedin-btn" href="">LinkedIn</button>
+                <button className="email-btn">
+                    <a href="#">Email</a>
+                </button>
+                <button className="linkedin-btn" >
+                    <a href="https://www.linkedin.com/in/kedar-hargude-608850140">LinkedIn</a>
+                </button>
             </div>
         </div>
     )
